@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="CSS/documentation.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation_Page</title>
+</head>
+
+<body>
+    <main id="main-doc">
+        <div id="main_1">
+            <nav id="navbar">
+                <header>
+                    <h1>Documentation for C</h1>
+                </header>
+                <ul>
+
+                    <li>
+                        <a href="#Introduction" class="nav-link">
+                            <h3>Introduction</h3>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#What_You_Should_Already_Know" class="nav-link">
+                            <h3>What You Should Already Know</h3>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#Hello_World" class="nav-link">
+                            <h3>Hello World</h3>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#Variables" class="nav-link">
+                            <h3>Variables</h3>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#Conditional_Statements" class="nav-link">
+                            <h3>Conditional Statements</h3>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#Switch_Cases" class="nav-link">
+                            <h3>Switch Cases</h3>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+
+
+
+
+
+
+        <div id="main_2">
+
+
+            <section id="Introduction" class="main-section">
+                <header id="header">
+                    <h1 id="title">Introduction</h1>
+                    <h3 id="description"></h3>
+                </header>
+                <div>
+                    <p>By the standards of modern technology, C is a rather old language. The original development took place in the early 70s, followed by revisions in the late 70s and standardization in the 80s. Nevertheless, in my opinion it has lost
+                        none of its vigor.</p>
+                    <p> It’s still a great language for embedded applications, and in my experience it is a suitable programming environment for everything from simple microcontroller-based devices to sophisticated digital signal processing.</p>
+                </div>
+                <div>
+                    <ul>
+                        <li>Only machine language. Ones and zeros. All of the “programmer-friendly” aspects of the C language must eventually be translated into the low-level reality of the processor’s digital hardware—i.e., binary arithmetic, logical operations,
+                            data transfer, registers, and memory locations.</li>
+                        <li>It certainly is possible to successfully write a program in C while knowing nothing about the actual hardware, but in the context of embedded systems development, it’s helpful and sometimes necessary to understand both your hardware
+                            and how your C code interacts with that hardware.
+
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+
+            <section id="What_You_Should_Already_Know" class="main-section">
+                <header id="header">
+                    <h1 id="title">What You Should Already Know</h1>
+                    <h3 id="description"></h3>
+                </header>
+                <div>
+                    <ul>
+                        <li>Binary and Hex Numbers</li>
+                        <li>Knowledge on Registers and Memory</li>
+                        <li>Finite State Machines</li>
+                    </ul>
+                </div>
+
+            </section>
+
+
+            <section id="Hello_World" class="main-section">
+                <header id="header">
+                    <h1 id="title">Hello World</h1>
+                    <h3 id="description"></h3>
+                </header>
+                <div>
+                    <p>We are going to go straight into it.</p>
+                    <p>This is the basic intorductory piece of writing code to almost every programming language "Hello World".</p>
+
+                </div>
+                <div id="code_div">
+                    <code>#include<stdio.h><br><br>int main(){<br><br><br><br>return 0;<br><br>} </code>
+                </div>
+                <div id="code_div">
+                    <code>#include<stdio.h><br><br>int main(){<br><br>printf("Hello World");<br><br>return 0;<br><br>} </code>
+                </div>
+            </section>
+
+
+            <section id="Variables" class="main-section">
+                <header id="header">
+                    <h1 id="title">Variables</h1>
+                    <h3 id="description"></h3>
+                </header>
+                <div>
+                    <p>In this section we learn how to create variables in C</p>
+                    <p>We also learn how to assign variables to values</p>
+                </div>
+
+                <div>
+                    <p>These are variables a and b</p>
+                </div>
+                <div id="code_div">
+                    <code>#include<stdio.h><br><br>int main(){<br><br>int a;<br><br> int b;<br><br>return 0;<br><br>} </code>
+                </div>
+                <div>
+                    <p>These are variables a and b assigned values 1 and 2</p>
+                </div>
+                <div id="code_div">
+                    <code>#include<stdio.h><br><br>int main(){<br><br>int a=1;<br><br> int b=2;<br><br>return 0;<br><br>} </code>
+                </div>
+            </section>
+
+
+            <section id="Conditional_Statements" class="main-section">
+                <header id="header">
+                    <h1 id="title">Conditional Statements</h1>
+                    <h3 id="description"></h3>
+                </header>
+
+                <div>
+                    <p>In this section, we will show how the conditional statements are usually structured in C</p>
+                    <p>There are three ways we usually use conditional statements:</p>
+                </div>
+
+                <div id="code_div">
+                    <code>#include<stdio.h><br><br>int main(){<br><br>if(condition).....;<br><br>Or<br><br>if(condition){.....};<br><br>return 0;<br><br>} </code>
+                </div>
+                <div id="code_div">
+                    <code>#include<stdio.h><br><br>int main(){<br><br>if(condition).....;<br><br>else.....;<br><br>return 0;<br><br>} </code>
+                </div>
+                <div id="code_div">
+                    <code>#include<stdio.h><br><br>int main(){<br><br>if(condition).....;<br><br>else if(secondary condition){.....};<br><br>return 0;<br><br>} </code>
+                </div>
+            </section>
+
+
+            <section id="Switch_Cases" class="main-section">
+                <header id="header">
+                    <h1 id="title">Switch Cases</h1>
+                    <h3 id="description"></h3>
+                </header>
+                <div>
+                    <p>In this section we deal with switch cases</p>
+                    <p>There are two main reasons we use switch cases:</p>
+                </div>
+                <div>
+                    <ul>
+                        <li>For concurrency</li>
+                        <li>For Responsiveness</li>
+                    </ul>
+                </div>
+                <div id="code_div">
+                    <code>#include<stdio.h><br><br>int main(){<br><br>int x;<br><br>switch(x){case 1:printf("Case 1");<br><br>break;<br><br>case 2:printf("Case 2");<br><br>break<br><br>default:x=1;<br><br>break;}return 0;<br><br>} </code>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+
+</body>
+
+</html>
