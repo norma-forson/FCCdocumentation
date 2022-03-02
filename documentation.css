@@ -35,7 +35,10 @@
     #main_1 nav ul li {
         margin: 6%;
     }
-    
+   #navbar ul li{
+      color:blue;
+   }
+
     #main_2 {
         width: 80%;
         right: 0;
